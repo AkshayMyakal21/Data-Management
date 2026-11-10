@@ -1,0 +1,21 @@
+Patient_ID,Name,Gender,Birth_Year,City
+P001,Anna Weber,F,1965,Heidelberg
+P002,Ben Schulz,M,2005,Mannheim
+P003,Clara Klein,F,1954,Karlsruhe
+P004,David Wolf,M,1970,Heidelberg
+P005,Elena Neumann,F,1986,Stuttgart
+P006,Felix Braun,M,1948,Mannheim
+P007,Greta Zimmer,F,1949,Heidelberg
+P008,Hannes Hartmann,M,1997,Karlsruhe
+P009,Ines Krüger,F,1979,
+P010,Jonas Lange,M,1951,Heidelberg
+P011,Katrin Fuchs,F,1968,Heidelberg
+P012,Lukas Vogel,M,1982,Mannheim
+P013,Mira Jung,F,1948,Karlsruhe
+P014,Nils Roth,M,2003,Heidelberg
+P015,Olga Frank,F,1977,Stuttgart
+P016,Paul Berger,M,1958,Mannheim
+P017,Rosa Kaiser,F,1947,Heidelberg
+P018,Simon Lorenz,M,1950,Karlsruhe
+P019,Tara Peters,F,1972,Speyer
+P020,Uwe Seidel,M,1971,Heidelberg

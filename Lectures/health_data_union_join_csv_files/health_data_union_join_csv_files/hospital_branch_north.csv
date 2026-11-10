@@ -1,0 +1,11 @@
+Visit_ID,Patient_ID,Visit_Date,Department
+V1001,P018,2025-03-19,Orthopedics
+V1002,P011,2025-03-23,Orthopedics
+V1003,P020,2025-03-16,Neurology
+V1004,P015,2025-03-03,Cardiology
+V1005,P009,2025-03-16,Radiology
+V1006,P003,2025-03-02,Radiology
+V1007,P010,2025-03-21,Neurology
+V1008,P015,2025-03-10,Radiology
+V1009,P013,2025-03-22,Orthopedics
+V1010,P001,2025-03-15,Orthopedics

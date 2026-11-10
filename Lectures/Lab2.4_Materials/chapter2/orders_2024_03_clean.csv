@@ -1,0 +1,24 @@
+order_id,order_date,customer_id,customer_name,city,country,category,quantity,unit_price,currency,email,last_updated,email_flag
+O1001,2024-03-01,C001,Anna Weber,Berlin,Germany,Electronics,1,499.00,EUR,anna.weber@mail.de,2024-03-01,Valid
+O1002,2024-03-02,C002,Ben Fischer,Munich,Germany,Accessories,2,19.90,EUR,ben.f@mail.de,2024-03-02,Valid
+O1003,2024-03-03,C003,Clara Schmidt,Hamburg,Germany,Electronics,1,899.00,EUR,clara@web.de,2024-03-03,Valid
+O1004,2024-03-04,C004,David Müller,münchen,Germany,Accessories,3,9.99,EUR,david.m@mail.de,2024-03-04,Valid
+O1006,2024-03-06,C006,Felix Wagner,Frankfurt,Germany,Electronics,1,1299.00,EUR,felix.w@mail.de,2024-03-06,Valid
+O1007,2024-03-07,C007,Gisela Braun,Cologne,Germany,Office,10,2.99,EUR,g.braun@mail.de,2024-03-07,Valid
+O1008,2024-03-08,C001,Anna Weber,Berlin,Germany,Accessories,1,29.00,EUR,anna.weber@mail.de,2024-03-08,Valid
+O1009,2024-03-09,C008,Hannah Becker,Stuttgart,Germany,Electronics,2,249.00,EUR,hannah.b@mail.de,2024-03-09,Valid
+O1010,2024-03-10,C009,Ivan Petrov,Vienna,Austria,Office,3,12.00,EUR,ivan.p@mail.at,2024-03-10,Valid
+O1014,2024-03-14,C013,Max Richter,Zurich,Switzerland,Electronics,1,349.00,CHF,max.r@mail.ch,2024-03-14,Valid
+O1016,2024-03-15,C015,Oliver Neumann,Dresden,Germany,Electronics,1,599.00,EUR,oliver.n@mail.de,2024-03-16,Valid
+O1017,2024-03-16,C016,Paula Schwarz,Bonn,Germany,Office,2,8.99,EUR,paula.s@mail.de,2024-03-29,Valid
+O1018,2024-03-17,C017,Quentin Braun,Munich,Germany,Electronics,1,129.00,EUR,q.braun@mail.de,2024-03-17,Valid
+O1019,2024-03-18,C003,Clara Schmidt,Hamburg,Germany,Accessories,1,39.90,EUR,clara@web.de,2024-03-18,Valid
+O1020,2024-03-19,C018,Rita Lange,Essen,Germany,Office,6,3.49,EUR,rita.l@mail.de,2024-03-19,Valid
+O1021,2024-03-20,C019,Sven Krause,Hanover,Germany,Electronics,1,999.00,USD,sven.k@mail.com,2024-03-20,Valid
+O1022,2024-03-20,C020,Tina Vogel,Berlin,Germany,Accessories,2,24.90,EUR,tina.v@mail.de,2024-03-20,Valid
+O1023,2024-03-21,C021,Uwe Jung,Mannheim,Germany,Office,1,59.00,EUR,uwe.j@mail.de,2024-04-02,Valid
+O1024,2024-03-22,C099,Vera Hahn,Karlsruhe,Germany,Electronics,1,449.00,EUR,vera.h@mail.de,2024-03-22,Valid
+O1025,2024-03-23,C022,Willi Roth,Munich,Germany,Accessories,3,15.00,EUR,willi.r@mail.de,2024-03-23,Valid
+O1027,2024-03-25,C005,Eva Klein,Heidelberg,Germany,Electronics,1,279.00,EUR,eva.klein@mail.de,2024-03-25,Valid
+O1028,2024-03-26,C024,Yusuf Demir,Berlin,Germany,Electronics,1,1899.00,EUR,yusuf.d@mail.de,2024-03-26,Valid
+O1030,2024-03-28,C002,Benjamin Fischer,Munich,Germany,Office,2,5.99,EUR,ben.f@mail.de,2024-03-28,Valid

@@ -1,0 +1,19 @@
+Record_ID,Patient_ID,Diagnosis,Admission_Date,Doctor
+R101,P001,Hypertension,2025-01-01,Dr. Meier
+R102,P002,Type 2 diabetes,2025-02-04,Dr. Yilmaz
+R103,P003,Asthma,2025-03-07,Dr. Novak
+R104,P004,Fracture,2025-04-10,Dr. Schmidt
+R105,P005,Influenza,2025-05-13,Dr. Meier
+R106,P006,Migraine,2025-06-16,Dr. Yilmaz
+R107,P007,Back pain,2025-07-19,
+R108,P008,Bronchitis,2025-08-22,Dr. Schmidt
+R109,P009,Hypertension,2025-09-25,Dr. Meier
+R110,P010,Type 2 diabetes,2025-01-01,Dr. Yilmaz
+R111,P011,Asthma,2025-02-04,Dr. Novak
+R112,P012,Fracture,2025-03-07,Dr. Schmidt
+R113,P013,Influenza,2025-04-10,Dr. Meier
+R114,P014,Migraine,2025-05-13,Dr. Yilmaz
+R115,P015,Back pain,2025-06-16,Dr. Novak
+R116,P016,Bronchitis,2025-07-19,Dr. Schmidt
+R117,P021,Hypertension,2025-08-22,Dr. Meier
+R118,P022,Type 2 diabetes,2025-09-25,Dr. Yilmaz

@@ -1,0 +1,67 @@
+{
+  "run_utc": "2026-11-08T03:16:01+00:00",
+  "input_dir": "C:\\Users\\DELL\\Data Management",
+  "input_files": {
+    "customers": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "geolocation": "b514f6fc991b9566aeba02aa5d67e2c3630f034b60a0e05aa0d082a3b66d88d6",
+    "order_items": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "order_payments": "4f713964f2815dbbaa40b9488268c55aac3627bfce5aa96cf58d1f3616de3cc0",
+    "order_reviews": "012b61c7593e34f51fa614efdf802b9c7056ce6aae5307ddb93236e7cfc797d7",
+    "orders": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "products": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc",
+    "sellers": "1f643d2b950373b85735e7794b20986f528d7a000432e7c6f9bcbb44d0846a0e",
+    "category_translation": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
+  },
+  "code_sha256": "aa7801db95341f51de41e226cefa22623fa4bed4725ab99733b87bb0420c9f29",
+  "quality_gate": {
+    "PASS": 41,
+    "WARN": 3
+  },
+  "outputs": {
+    "dim_customers": {
+      "rows": 99441,
+      "columns": 10,
+      "sha256": "b86885862bddf37bfd6ff9a95c60307157c06e36e7b1a3b9732231652bbbe563"
+    },
+    "dim_sellers": {
+      "rows": 3095,
+      "columns": 9,
+      "sha256": "1a7ff7f4cdb00bf531458eebe52d5d0f04c25b2e023a2b159e1cb1ff41f4f71d"
+    },
+    "dim_products": {
+      "rows": 32951,
+      "columns": 11,
+      "sha256": "b977cdc11e733b8d56ccf07caf42b379915b7ad875ab1e0610bb2ebe6a8afd02"
+    },
+    "dim_location": {
+      "rows": 17325,
+      "columns": 6,
+      "sha256": "b37d88e74dd26030557312a3a3db897b21abae14643f74acfa8cc25e43a34058"
+    },
+    "dim_date": {
+      "rows": 634,
+      "columns": 7,
+      "sha256": "587642dec567b0dfb9732b7fde51f0198b38ced30f7bccd4a626f3d394aa0250"
+    },
+    "fact_orders": {
+      "rows": 99441,
+      "columns": 40,
+      "sha256": "3752095ebb15f0af868e9d707d32e8d1aa897651062dff66c565de3f9c7e1750"
+    },
+    "fact_order_items": {
+      "rows": 112650,
+      "columns": 31,
+      "sha256": "0c35a4d6fa2adef42af2e526b3d1fb79b9c3fcec5bc93695cf063a85ffc11616"
+    },
+    "fact_payments": {
+      "rows": 103883,
+      "columns": 7,
+      "sha256": "c87d07865eb587a678475ed81571a09b3ae58407c59676c5393e158662029dc9"
+    },
+    "fact_reviews": {
+      "rows": 99224,
+      "columns": 11,
+      "sha256": "a2f5f43ef7df51e3f3a478a758e9207bd3e7e96d8da959a883ca0e74deeaa097"
+    }
+  }
+}

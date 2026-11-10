@@ -1,0 +1,8 @@
+table,check,failed_rows,status,detail
+fact_orders,PK unique (order_id),0,PASS,
+fact_orders,PK not null,0,PASS,
+fact_orders,"is_late in {0,1,null}",0,PASS,
+fact_orders,"dq_flag != ok (flagged, kept)",203,WARN,"{'ok': 99238, 'carrier_before_purchase': 166, 'delivered_before_carrier': 23, 'delivered_no_date': 8, 'not_delivered_but_has_date': 6} | example: [{'order_status': 'delivered', 'order_delivered_customer_date': '2018-08-21T10:15:44Z[UTC]', 'order_approved_at': '2018-08-15T14:24:18Z[UTC]', 'order_purchase_timestamp': '2018-08-15T14:02:44Z[UTC]', 'order_estimated_delivery_date': '2018-08-28T00:00:00Z[UTC]', 'order_delivered_carrier_date': '2018-08-15T13:56:00Z[UTC]', 'order_value': 133.84}]"
+fact_orders,flagged orders <= 1 % (date parsing ok),0,PASS,203 of 99441 flagged
+fact_orders,delivered orders have a delivery date (>= 99 %),0,PASS,
+fact_orders,payment_mismatch > 1 BRL,249,WARN,

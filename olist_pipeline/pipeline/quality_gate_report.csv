@@ -1,0 +1,43 @@
+table,check,failed_rows,status,detail
+fact_orders,PK unique (order_id),0,PASS,
+fact_orders,PK not null,0,PASS,
+fact_order_items,"PK unique (order_id, order_item_id)",0,PASS,
+fact_order_items,PK not null,0,PASS,
+fact_payments,"PK unique (order_id, payment_sequential)",0,PASS,
+fact_payments,PK not null,0,PASS,
+fact_reviews,"PK unique (review_id, order_id)",0,PASS,
+fact_reviews,PK not null,0,PASS,
+dim_customers,PK unique (customer_id),0,PASS,
+dim_customers,PK not null,0,PASS,
+dim_sellers,PK unique (seller_id),0,PASS,
+dim_sellers,PK not null,0,PASS,
+dim_products,PK unique (product_id),0,PASS,
+dim_products,PK not null,0,PASS,
+dim_date,PK unique (purchase_date),0,PASS,
+dim_date,PK not null,0,PASS,
+dim_location,"PK unique (zip_code_prefix, city, state, role)",0,PASS,
+dim_location,PK not null,0,PASS,
+fact_order_items,FK order_id -> fact_orders,0,PASS,
+fact_order_items,FK product_id -> dim_products,0,PASS,
+fact_order_items,FK seller_id -> dim_sellers,0,PASS,
+fact_payments,FK order_id -> fact_orders,0,PASS,
+fact_reviews,FK order_id -> fact_orders,0,PASS,
+fact_orders,FK customer_id -> dim_customers,0,PASS,
+fact_reviews,review_score in 1..5,0,PASS,
+fact_order_items,price > 0,0,PASS,
+fact_order_items,freight >= 0,0,PASS,
+fact_order_items,distance missing (no geo match),557,WARN,
+fact_payments,installments >= 1,0,PASS,
+fact_orders,"is_late in {0,1,null}",0,PASS,
+fact_orders,"dq_flag != ok (flagged, kept)",203,WARN,
+fact_orders,payment_mismatch > 1 BRL,312,WARN,
+dim_location,"role in {customer, seller}",0,PASS,
+dim_location,both roles present,0,PASS,
+fact_orders,"row count = raw orders (99,441) - 0",0,PASS,"raw=99441, out=99441"
+fact_order_items,"row count = raw order_items (112,650) - 0",0,PASS,"raw=112650, out=112650"
+fact_reviews,"row count = raw order_reviews (99,224) - 0",0,PASS,"raw=99224, out=99224"
+dim_customers,"row count = raw customers (99,441) - 0",0,PASS,"raw=99441, out=99441"
+dim_sellers,"row count = raw sellers (3,095) - 0",0,PASS,"raw=3095, out=3095"
+dim_products,"row count = raw products (32,951) - 0",0,PASS,"raw=32951, out=32951"
+fact_payments,"row count = raw order_payments (103,886) - 3",0,PASS,"raw=103886, out=103883"
+fact_order_items,sum(price) equals raw,0,PASS,difference = 0.0

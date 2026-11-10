@@ -1,0 +1,8 @@
+Visit_ID,Patient_ID,VisitDate,Department
+V3001,P014,2025-03-12,Radiology
+V3002,P013,2025-03-08,Emergency
+V3003,P003,2025-03-06,Emergency
+V3004,P008,2025-03-22,Emergency
+V3005,P001,2025-03-16,Neurology
+V3006,P006,2025-03-09,Orthopedics
+V3007,P001,2025-03-05,Pediatrics

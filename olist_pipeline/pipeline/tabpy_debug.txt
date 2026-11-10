@@ -1,0 +1,9 @@
+rows=99441
+order_status: dtype=object sample=["'delivered'", "'delivered'", "'delivered'"] types=['str']
+order_delivered_customer_date: dtype=object sample=["'2017-10-10T21:25:13Z[UTC]'", "'2018-08-07T15:27:45Z[UTC]'", "'2018-08-17T18:06:29Z[UTC]'"] types=['NoneType', 'str']
+order_purchase_timestamp: dtype=object sample=["'2017-10-02T10:56:33Z[UTC]'", "'2018-07-24T20:41:37Z[UTC]'", "'2018-08-08T08:38:49Z[UTC]'"] types=['str']
+order_estimated_delivery_date: dtype=object sample=["'2017-10-18T00:00:00Z[UTC]'", "'2018-08-13T00:00:00Z[UTC]'", "'2018-09-04T00:00:00Z[UTC]'"] types=['str']
+customer_id: dtype=object sample=["'9ef432eb6251297304e76186b10a928d'", "'b0830fb4747a6c6d20dea0b8c802d7ef'", "'41ce2a54c0b03bf3443c3d931a367089'"] types=['str']
+order_id: dtype=object sample=["'e481f51cbdc54678b7cc49136f2d6af7'", "'53cdb2fc8bc7dce0b6741e2150273451'", "'47770eb9100c2d0c44946d9cf07ec65d'"] types=['str']
+order_delivered_carrier_date: dtype=object sample=["'2017-10-04T19:55:00Z[UTC]'", "'2018-07-26T14:31:00Z[UTC]'", "'2018-08-08T13:50:00Z[UTC]'"] types=['NoneType', 'str']
+order_approved_at: dtype=object sample=["'2017-10-02T11:07:15Z[UTC]'", "'2018-07-26T03:24:27Z[UTC]'", "'2018-08-08T08:55:23Z[UTC]'"] types=['str']
